@@ -1,0 +1,13 @@
+{
+	"keyboard": "crkbd/halberd",
+	"keymap": "my_keymap",
+	"macros": [
+		[
+			{ "action":"down", "keycodes": ["LSFT"]},
+			"hello world1",
+			{ "action":"up", "keycodes": ["LSFT"]}
+		]
+	],
+	"layout": "LAYOUT_all",
+	"layers": [ "MACRO_0" ]
+}
